@@ -189,13 +189,11 @@ h6 { font-size: 14px; line-height: 30px; }
    animation: typing 4s steps(30, end) forwards;
 }
 
-/* Keyframes untuk animasi ketik */
 @keyframes typing {
    from { width: 0 }
    to { width: 100% }
 }
 
-/* Keyframes untuk animasi cursor */
 @keyframes blink-caret {
    from, to { border-color: transparent }
    50% { border-color: rgb(255, 255, 255); }
@@ -775,6 +773,10 @@ properly.
 
    [class*="column"] + [class*="column"]:last-child { float: none; }
    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
+
+   .typing-text {
+      font-size: 14px; 
+   }
 
    /* Offsets */
    .row .offset-1    { margin-left: 0%; }
