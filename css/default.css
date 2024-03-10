@@ -775,7 +775,7 @@ properly.
    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
 
    .typing-text {
-      font-size: 14px; 
+      font-size: 12px; 
    }
 
    /* Offsets */
